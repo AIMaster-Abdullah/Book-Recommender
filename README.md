@@ -21,13 +21,12 @@ A personalized book recommendation system based on user interests using Natural 
 git clone https://github.com/yourusername/book-recommender.git
 cd book-recommender
 
-```
+
 
 2. Install the dependencies:
-
 ```
 pip install -r requirements.txt
-
+```
 
 ### Web Interface
 Run the web app with:
