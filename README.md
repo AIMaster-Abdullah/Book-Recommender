@@ -1,80 +1,78 @@
-📚 Book Recommendation System
-This project offers a personalized book recommendation system leveraging Natural Language Processing (NLP) and semantic search with sentence embeddings. Discover new books tailored to your interests!
+# Book Recommendation System
 
-✨ Features
-Data Preprocessing: Cleans and prepares raw book data for analysis.
+A personalized book recommendation system based on user interests using Natural Language Processing (NLP) and semantic search with sentence embeddings.
 
-Semantic Search: Generates powerful sentence embeddings for book descriptions using Sentence Transformers to understand their meaning.
+---
 
-Fast Similarity Search: Utilizes FAISS (Facebook AI Similarity Search) for efficient and rapid retrieval of similar books.
+## Features
 
-Interactive Web Interface: A user-friendly web application built with Gradio for seamless recommendations.
+- Clean and preprocess book data
+- Generate embeddings for book descriptions using Sentence Transformers
+- Use FAISS for fast similarity search
+- Interactive web interface built with Gradio
+- Command-line interface (CLI) for local usage
 
-Command-Line Interface (CLI): For quick recommendations directly from your terminal.
+---
 
-🚀 Installation
-Follow these steps to get the project up and running on your local machine:
+## Installation
 
-Clone the repository:
+1. Clone the repository:
 
-Bash
-
+```bash
 git clone https://github.com/yourusername/book-recommender.git
 cd book-recommender
-Install dependencies:
 
-Bash
+2. Install the dependencies:
 
+```bash
 pip install -r requirements.txt
-🖥️ Usage
-Choose your preferred way to interact with the recommender system:
 
-Web Interface
-Run the web application:
 
-Bash
+### Web Interface
+Run the web app with:
 
+bash
+Copy
+Edit
 python recommender_web.py
-This command will launch a local web server and automatically open the recommendation interface in your default browser.
+This will start a local web server and open the recommendation interface in your browser.
 
-Command Line Interface (CLI)
-For terminal-based recommendations:
+## Command-Line Interface (CLI)
+Run the CLI app with:
 
-Bash
-
+bash
+Copy
+Edit
 python recommender_cli.py
-You'll be prompted to enter keywords or preferences, and the system will then suggest relevant books.
+Follow the prompts in the terminal to enter your preferences and get book recommendations.
 
-📂 Project Structure
-Here's an overview of the key files and directories in this project:
+## Project Structure
+books.csv: Dataset containing books and their descriptions
 
-books.csv: The primary dataset containing book titles and their descriptions.
+recommender_web.py: Web interface implemented with Gradio
 
-recommender_web.py: Contains the code for the Gradio web interface.
+recommender_cli.py: Command-line interface implementation
 
-recommender_cli.py: Implements the command-line interface logic.
+requirements.txt: Project dependencies
 
-requirements.txt: Lists all necessary Python libraries for the project.
+book_cleaned.csv, book_embed.npy, book_faiss.idx: Generated files for cleaned data and search index
 
-book_cleaned.csv: Cleaned version of books.csv after preprocessing.
+## Notes
+Ensure the books.csv file is placed in the data/ folder or update the file path accordingly in the scripts.
 
-book_embed.npy: Numerical embeddings generated from book descriptions.
+The first run may take some time to clean the data and build the search index.
 
-book_faiss.idx: The FAISS index for fast similarity lookups.
+For best results, provide specific topics or genres when searching (e.g., "psychology", "adventure", "AI").
 
-💡 Important Notes
-Ensure that the books.csv file is located in a data/ directory relative to your project root, or update the file path in the scripts accordingly.
+## License
+MIT License
 
-The first run of the application may take some time as it needs to clean the data and build the FAISS index. Subsequent runs will be much faster.
+## Contact
+For questions or feedback, please contact:
 
-For the best recommendation results, try to be specific with your keywords (e.g., "science fiction space opera," "historical romance 18th century," "self-help productivity").
+## Abdullah Ibrahem Mohammed AL-Mashni
+## 📧 abdullahalmashni2003@gmail.com
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-✉️ Contact
-For any questions, feedback, or collaborations, feel free to reach out:
-
-Abdullah Ibrahem Mohammed AL-Mashni
-
-📧 abdullahalmashni2003@gmail.com
+yaml
+Copy
+Edit
