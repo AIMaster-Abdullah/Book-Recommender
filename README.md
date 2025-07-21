@@ -18,7 +18,7 @@ A personalized book recommendation system based on user interests using Natural 
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/book-recommender.git
+git clone https://github.com/AIMaster-Abdullah/book-recommender.git
 cd book-recommender
 
 
