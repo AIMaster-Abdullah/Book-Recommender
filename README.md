@@ -18,13 +18,14 @@ A personalized book recommendation system based on user interests using Natural 
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/yourusername/book-recommender.git
 cd book-recommender
 
+```
+
 2. Install the dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 
 
