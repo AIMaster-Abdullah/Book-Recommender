@@ -73,6 +73,3 @@ For questions or feedback, please contact:
 ## Abdullah Ibrahem Mohammed AL-Mashni
 ## 📧 abdullahalmashni2003@gmail.com
 
-yaml
-Copy
-Edit
